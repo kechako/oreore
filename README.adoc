@@ -1,0 +1,34 @@
+= Oreore
+
+oreore is a command line tool for generating ore-ore TLS certificates.
+
+== Install
+
+You must install golang to compile oreore.
+
+Download golang from bellow, and install it.
+
+https://golang.org/dl/
+
+Type following to install oreore
+
+[source, console]
+----
+$ go get github.com/kechako/oreore
+----
+
+== Usage
+
+=== Generate a certificate
+
+[source, console]
+----
+$ oreore gen
+----
+
+=== Show fingerprint
+
+[source, console]
+----
+$ oreore hash --cert cert.pem
+----
